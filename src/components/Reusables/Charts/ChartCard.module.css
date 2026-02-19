@@ -1,0 +1,33 @@
+.chartCard {
+  background-color: var(--chartCard-bg);
+  border-radius: 12px;
+  box-shadow: var(--chartCard-shadow);
+  padding: 24px;
+  min-width: 0;
+  flex: 1;
+}
+
+.chartCardHeader {
+  margin-bottom: 20px;
+}
+
+.chartCardTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--chartCard-title);
+  margin: 0 0 4px 0;
+}
+
+.chartCardSubtitle {
+  font-size: 13px;
+  color: var(--chartCard-subtitle);
+  margin: 0;
+}
+
+.chartCardBody {
+  min-height: 280px;
+}
+
+.chartDataLabel {
+  font-weight: 500;
+}

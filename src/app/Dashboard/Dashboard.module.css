@@ -1,0 +1,41 @@
+.dashboard {
+  padding: 24px;
+  min-height: 100%;
+}
+
+.topSection {
+  margin-bottom: 32px;
+}
+
+.cardGrid {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .cardGrid {
+    flex-direction: column;
+  }
+}
+
+.bottomSection {
+  margin-top: 42px;
+}
+
+.chartRow {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.chartRow > * {
+  min-width: 320px;
+  flex: 1;
+}
+
+@media (max-width: 900px) {
+  .chartRow {
+    flex-direction: column;
+  }
+}

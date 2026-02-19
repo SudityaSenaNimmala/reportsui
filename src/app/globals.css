@@ -1,13 +1,125 @@
 :root {
-  --background: #ffffff;
+  --background: #f9f9fa;
   --foreground: #171717;
+
+  --sideNav-bg: #001a6f;
+  --sideNav-text: #ffffff;
+  --sideNav-link-hover: #0037a9;
+  --sideNav-link-active-bg: #0037a9;
+
+  --topNav-bg: #ffffff;
+  --topNav-border: rgb(240, 240, 240);
+  --topNav-avatar-bg: #e8eafe;
+  --topNav-avatar-icon: #6b7eeb;
+  --topNav-text: #000000;
+
+  /* Stat cards */
+  --statCard-bg: #ffffff;
+  --statCard-title: #6b7280;
+  --statCard-value: #111827;
+  --statCard-subtitle: #9ca3af;
+  --statCard-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --statCard-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  /* Chart cards */
+  --chartCard-bg: #ffffff;
+  --chartCard-title: #111827;
+  --chartCard-subtitle: #6b7280;
+  --chartCard-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --chartCard-axis: #6b7280;
+  --chartCard-legend: #374151;
+  --chartCard-grid: #e5e7eb;
+  --chartCard-border: #e5e7eb;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+
+    --sideNav-bg: #1f0052;
+    --sideNav-text: #ffffff;
+    --sideNav-link-hover: #0037a9;
+    --sideNav-link-active-bg: #0037a9;
+
+    --topNav-bg: #0a0a0a;
+    --topNav-border: rgb(40, 40, 40);
+    --topNav-avatar-bg: rgba(107, 126, 235, 0.25);
+    --topNav-avatar-icon: #8b9aef;
+    --topNav-text: #ededed;
+
+    --statCard-bg: #1f2937;
+    --statCard-title: #9ca3af;
+    --statCard-value: #f9fafb;
+    --statCard-subtitle: #6b7280;
+    --statCard-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    --statCard-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+    --chartCard-bg: #1f2937;
+    --chartCard-title: #f9fafb;
+    --chartCard-subtitle: #9ca3af;
+    --chartCard-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    --chartCard-axis: #9ca3af;
+    --chartCard-legend: #d1d5db;
+    --chartCard-grid: #374151;
+    --chartCard-border: #374151;
   }
+}
+
+[data-theme="light"] {
+  --background: #ffffff;
+  --foreground: #171717;
+  --sideNav-bg: #001a6f;
+  --sideNav-text: #ffffff;
+  --sideNav-link-hover: #0037a9;
+  --sideNav-link-active-bg: #0037a9;
+  --topNav-bg: #ffffff;
+  --topNav-border: rgb(240, 240, 240);
+  --topNav-avatar-bg: #e8eafe;
+  --topNav-avatar-icon: #6b7eeb;
+  --topNav-text: #000000;
+  --statCard-bg: #ffffff;
+  --statCard-title: #6b7280;
+  --statCard-value: #111827;
+  --statCard-subtitle: #9ca3af;
+  --statCard-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --statCard-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --chartCard-bg: #ffffff;
+  --chartCard-title: #111827;
+  --chartCard-subtitle: #6b7280;
+  --chartCard-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --chartCard-axis: #6b7280;
+  --chartCard-legend: #374151;
+  --chartCard-grid: #e5e7eb;
+  --chartCard-border: #e5e7eb;
+}
+
+[data-theme="dark"] {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --sideNav-bg: #001a6f;
+  --sideNav-text: #ffffff;
+  --sideNav-link-hover: rgba(90, 39, 203, 0.4);
+  --sideNav-link-active-bg: #0037a9;
+  --topNav-bg: #0a0a0a;
+  --topNav-border: rgb(40, 40, 40);
+  --topNav-avatar-bg: rgba(107, 126, 235, 0.25);
+  --topNav-avatar-icon: #8b9aef;
+  --topNav-text: #ededed;
+  --statCard-bg: #1f2937;
+  --statCard-title: #9ca3af;
+  --statCard-value: #f9fafb;
+  --statCard-subtitle: #6b7280;
+  --statCard-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --statCard-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --chartCard-bg: #1f2937;
+  --chartCard-title: #f9fafb;
+  --chartCard-subtitle: #9ca3af;
+  --chartCard-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --chartCard-axis: #9ca3af;
+  --chartCard-legend: #d1d5db;
+  --chartCard-grid: #374151;
+  --chartCard-border: #374151;
 }
 
 html,
@@ -19,9 +131,6 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 * {
@@ -39,4 +148,14 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  line-height: 1.8;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
 }

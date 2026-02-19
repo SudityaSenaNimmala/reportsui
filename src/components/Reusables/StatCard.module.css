@@ -1,0 +1,107 @@
+.card {
+  background-color: var(--statCard-bg);
+  border-radius: 12px;
+  box-shadow: var(--statCard-shadow);
+  padding: 20px 24px;
+  min-width: 0;
+  flex: 1;
+  position: relative;
+  transition: box-shadow 0.2s ease;
+  border: none;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  cursor: default;
+}
+
+.card:focus-visible {
+  outline: 2px solid var(--statCard-value);
+  outline-offset: 2px;
+}
+
+.card:hover {
+  box-shadow: var(--statCard-shadow-hover);
+}
+
+.cardClickable {
+  cursor: pointer;
+}
+
+.cardHeader {
+  gap: 12px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* margin-bottom: 16px; */
+}
+
+.cardTitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--statCard-title);
+  margin: 0;
+  flex: 1;
+}
+
+.iconBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  color: #ffffff;
+  flex-shrink: 0;
+}
+
+.iconBox svg {
+  width: 20px;
+  height: 20px;
+}
+
+.arrowLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  padding: 4px;
+  border-radius: 6px;
+  transition: opacity 0.2s ease;
+}
+
+.cardWithArrow .arrowLink {
+  opacity: 0;
+}
+
+.cardWithArrow:hover .arrowLink {
+  opacity: 1;
+}
+
+.arrowLink:hover {
+  opacity: 0.8 !important;
+}
+
+.cardBottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.cardMetrics {
+  min-width: 0;
+}
+
+.cardValue {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--statCard-value);
+  margin: 0 0 4px 0;
+  line-height: 1.2;
+}
+
+.cardSubtitle {
+  font-size: 13px;
+  color: var(--statCard-subtitle);
+  margin: 0;
+}
