@@ -1,0 +1,732 @@
+[
+  {
+    "index": 1,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : ONEDRIVE_BUSINESS_ADMIN cloudId : 68d3f447ae0d6807c5306016 File Name : teeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.docx status code : 404 Exception : {\"error\":{\"code\":\"itemNotFound\",\"message\":\"The resource could not be found.\",\"innerError\":{\"date\":\"2025-12-12T15:28:02\",\"request-id\":\"878d5f5a-81a3-4c05-b764-4395927e0c20\",\"client-request-id\":\"878d5f5a-81a3-4c05-b764-4395927e0c20\"}}}\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2240)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 404,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693c2d7d2ed7800a5038619c",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 2,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud G_SUITE cloudId 696f7ce2c37c821c24963b3d status code 403 Exception : {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n    \"errors\": [\n      {\n        \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n        \"domain\": \"global\",\n        \"reason\": \"fileNotDownloadable\",\n        \"location\": \"alt\",\n        \"locationType\": \"parameter\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.executeDownloadRequest(GoogleSuiteCloudConnector.java:816)\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.getFileContentStream(GoogleSuiteCloudConnector.java:765)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 403,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "6977817e9cb32f1ea560751f",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 3,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Omitting partial file stream for cloud G_SUITE cloudId 69257f8216243149b2eb74d2 File Id 1VfI_gBoqjF27rco2_j3-8x0IPPMjwE1k6kSQGxEqz_I File Name sample \n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.createFileInCloud(GoogleSuiteCloudConnector.java:622)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693be822585dcf4e3bd80aa3",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 4,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Omitting partial file stream for cloud G_SUITE cloudId 69257f8216243149b2eb74d2 File Id 1xZaTuSPfpwS_Z0IkhOwHawiM0RdQzoY1StvvSBDJCUA File Name note2 \n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.createFileInCloud(GoogleSuiteCloudConnector.java:622)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 2,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693bc7f3585dcf4e3bd8095c",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 5,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud G_SUITE cloudId 6952bc32eb3a770bdb3a33a2 status code 403 Exception : {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n    \"errors\": [\n      {\n        \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n        \"domain\": \"global\",\n        \"reason\": \"fileNotDownloadable\",\n        \"location\": \"alt\",\n        \"locationType\": \"parameter\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.executeDownloadRequest(GoogleSuiteCloudConnector.java:816)\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.getFileContentStream(GoogleSuiteCloudConnector.java:765)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 403,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "697675b69cb32f1ea560750a",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 6,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Omitting partial file stream for cloud G_SUITE cloudId 69257f8216243149b2eb74d2 File Id 1t1Ch7fCkO0lnVbyoUt1Q42bJjBgbPEDn1SQc0F1pgcM File Name NOTE1 \n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.createFileInCloud(GoogleSuiteCloudConnector.java:622)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 2,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693bc7f3585dcf4e3bd8095c",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 7,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : ONEDRIVE_BUSINESS_ADMIN cloudId : 6965034d55908f10286b3561 File Name : file more data.xlsx status code :  Exception : com.google.api.client.http.HttpResponseException: 409 Conflict\n{\"error\":{\"code\":\"nameAlreadyExists\",\"message\":\"A file with the same name is currently being uploaded. Change the filename and try to save again.\",\"innerError\":{\"date\":\"2026-01-15T09:48:07\",\"request-id\":\"8d4acfbb-e56d-4911-8d35-5253e1815ce7\",\"client-request-id\":\"8d4acfbb-e56d-4911-8d35-5253e1815ce7\"}}}\n\tat com.google.api.client.http.HttpRequest.execute(HttpRequest.java:1061)\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:112)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:475)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:136)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:475)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 409,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "6968b22aa43ed978fca61ba6",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 8,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud DROPBOX_BUSINESS cloudId 693844c8585dcf4e3bd7f017.paper status code 409 Exception : {\"error_summary\": \"path/not_found/...\", \"error\": {\".tag\": \"path\", \"path\": {\".tag\": \"not_found\"}}}\n\tat com.cloudfuze.cloud.connectors.DropBoxBusinessCloudConnector.getFileContentStream(DropBoxBusinessCloudConnector.java:1975)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:239)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 409,
+    "retry": 2,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "6938492d585dcf4e3bd7f4ed",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 9,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud G_SUITE cloudId 6952bc32eb3a770bdb3a33a2 status code 403 Exception : {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n    \"errors\": [\n      {\n        \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n        \"domain\": \"global\",\n        \"reason\": \"fileNotDownloadable\",\n        \"location\": \"alt\",\n        \"locationType\": \"parameter\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.executeDownloadRequest(GoogleSuiteCloudConnector.java:816)\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.getFileContentStream(GoogleSuiteCloudConnector.java:765)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 403,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "697673b49cb32f1ea56073cb",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 10,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud G_SUITE cloudId 6952bc32eb3a770bdb3a33a2 status code 403 Exception : {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n    \"errors\": [\n      {\n        \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n        \"domain\": \"global\",\n        \"reason\": \"fileNotDownloadable\",\n        \"location\": \"alt\",\n        \"locationType\": \"parameter\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.executeDownloadRequest(GoogleSuiteCloudConnector.java:816)\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.getFileContentStream(GoogleSuiteCloudConnector.java:765)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 403,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "697675b69cb32f1ea560750a",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 11,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud G_SUITE cloudId 6952bc32eb3a770bdb3a33a2 status code 403 Exception : {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n    \"errors\": [\n      {\n        \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n        \"domain\": \"global\",\n        \"reason\": \"fileNotDownloadable\",\n        \"location\": \"alt\",\n        \"locationType\": \"parameter\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.executeDownloadRequest(GoogleSuiteCloudConnector.java:816)\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.getFileContentStream(GoogleSuiteCloudConnector.java:765)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 403,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "697675b69cb32f1ea560750a",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 12,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : ONEDRIVE_BUSINESS_ADMIN cloudId : 68d3f447ae0d6807c5306016 File Name : ddddddddddddddddd.xlsx status code : 404 Exception : {\"error\":{\"code\":\"itemNotFound\",\"message\":\"The resource could not be found.\",\"innerError\":{\"date\":\"2025-12-12T15:28:01\",\"request-id\":\"19c5d01d-3e74-4619-bfe8-23ee5c066e51\",\"client-request-id\":\"19c5d01d-3e74-4619-bfe8-23ee5c066e51\"}}}\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2240)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 404,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693c2d7d2ed7800a5038619c",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 13,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud G_SUITE cloudId 6952bc32eb3a770bdb3a33a2 status code 403 Exception : {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n    \"errors\": [\n      {\n        \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n        \"domain\": \"global\",\n        \"reason\": \"fileNotDownloadable\",\n        \"location\": \"alt\",\n        \"locationType\": \"parameter\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.executeDownloadRequest(GoogleSuiteCloudConnector.java:816)\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.getFileContentStream(GoogleSuiteCloudConnector.java:765)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 403,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "697675b69cb32f1ea560750a",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 14,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Omitting partial file stream for cloud G_SUITE cloudId 69257f8216243149b2eb74d2 File Id 11_1JeF5wNY60Q4TSoRib1-LTuqtDbUIjR_PxAzFAJOM File Name BOX1 \n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.createFileInCloud(GoogleSuiteCloudConnector.java:622)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693be822585dcf4e3bd80aa3",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 15,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Omitting partial file stream for cloud G_SUITE cloudId 69257f8216243149b2eb74d2 File Id 1De3Pi2Md_A6uYJ-114iiASZIdgIl5ZxBuJog8CtL6Es File Name sample \n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.createFileInCloud(GoogleSuiteCloudConnector.java:622)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 2,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693bc7f3585dcf4e3bd8095c",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 16,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Omitting partial file stream for cloud G_SUITE cloudId 69257f8216243149b2eb74d2 File Id 1F1ZHOONVh9uVZ5ZVRIP902JX7CcEGCmQbArqbbNqkuU File Name boz2 \n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.createFileInCloud(GoogleSuiteCloudConnector.java:622)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693be822585dcf4e3bd80aa3",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 17,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud G_SUITE cloudId 6952bc32eb3a770bdb3a33a2 status code 403 Exception : {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n    \"errors\": [\n      {\n        \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n        \"domain\": \"global\",\n        \"reason\": \"fileNotDownloadable\",\n        \"location\": \"alt\",\n        \"locationType\": \"parameter\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.executeDownloadRequest(GoogleSuiteCloudConnector.java:816)\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.getFileContentStream(GoogleSuiteCloudConnector.java:765)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 403,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "697673b49cb32f1ea56073cb",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 18,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud G_SUITE cloudId 6952bc32eb3a770bdb3a33a2 status code 403 Exception : {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n    \"errors\": [\n      {\n        \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n        \"domain\": \"global\",\n        \"reason\": \"fileNotDownloadable\",\n        \"location\": \"alt\",\n        \"locationType\": \"parameter\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.executeDownloadRequest(GoogleSuiteCloudConnector.java:816)\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.getFileContentStream(GoogleSuiteCloudConnector.java:765)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 403,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "697673b49cb32f1ea56073cb",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 19,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : GOOGLE_SHARED_DRIVES cloudId : 691c8f483f005b7a04d14bd6 File Name : test_files_bundle.zip status code : 400 Exception : {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Bad Request\",\n    \"errors\": [\n      {\n        \"message\": \"Bad Request\",\n        \"domain\": \"global\",\n        \"reason\": \"badRequest\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.helper.GoogleTeamDriveBusinessHelper.resumableSmallFileUpload(GoogleTeamDriveBusinessHelper.java:541)\n\tat com.cloudfuze.cloud.connectors.GoogleTeamDriveCloudConnector.createFileInCloud(GoogleTeamDriveCloudConnector.java:702)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 400,
+    "retry": 3,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69396d31585dcf4e3bd7fa98",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 20,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : GOOGLE_SHARED_DRIVES cloudId : 691c8f483f005b7a04d14bd6 File Name : sample.exe status code : 400 Exception : {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Bad Request\",\n    \"errors\": [\n      {\n        \"message\": \"Bad Request\",\n        \"domain\": \"global\",\n        \"reason\": \"badRequest\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.helper.GoogleTeamDriveBusinessHelper.resumableSmallFileUpload(GoogleTeamDriveBusinessHelper.java:541)\n\tat com.cloudfuze.cloud.connectors.GoogleTeamDriveCloudConnector.createFileInCloud(GoogleTeamDriveCloudConnector.java:702)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 400,
+    "retry": 3,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69396d31585dcf4e3bd7fa98",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 21,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud G_SUITE cloudId 696f7ce2c37c821c24963b3d status code 403 Exception : {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n    \"errors\": [\n      {\n        \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n        \"domain\": \"global\",\n        \"reason\": \"fileNotDownloadable\",\n        \"location\": \"alt\",\n        \"locationType\": \"parameter\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.executeDownloadRequest(GoogleSuiteCloudConnector.java:816)\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.getFileContentStream(GoogleSuiteCloudConnector.java:765)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 403,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "6977817e9cb32f1ea560751f",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 22,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : ONEDRIVE_BUSINESS_ADMIN cloudId : 6965034d55908f10286b3561 File Name : file more data.xlsx status code :  Exception : com.google.api.client.http.HttpResponseException: 409 Conflict\n{\"error\":{\"code\":\"nameAlreadyExists\",\"message\":\"A file with the same name is currently being uploaded. Change the filename and try to save again.\",\"innerError\":{\"date\":\"2026-01-13T17:02:08\",\"request-id\":\"fb56a43f-16a8-4e93-bf91-a1d2acfe527d\",\"client-request-id\":\"fb56a43f-16a8-4e93-bf91-a1d2acfe527d\"}}}\n\tat com.google.api.client.http.HttpRequest.execute(HttpRequest.java:1061)\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:112)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:475)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:136)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:475)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 409,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "696674ef55908f10286b425a",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 23,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Omitting partial file stream for cloud G_SUITE cloudId 69257f8216243149b2eb74d2 File Id 1YoydNuwQok20o7wims6wRhcmvd9uEjEjs7WRVuEk0GE File Name NOTE1T \n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.createFileInCloud(GoogleSuiteCloudConnector.java:622)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693aa1dc585dcf4e3bd802c8",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 24,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud G_SUITE cloudId 696f7ce2c37c821c24963b3d status code 403 Exception : {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n    \"errors\": [\n      {\n        \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n        \"domain\": \"global\",\n        \"reason\": \"fileNotDownloadable\",\n        \"location\": \"alt\",\n        \"locationType\": \"parameter\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.executeDownloadRequest(GoogleSuiteCloudConnector.java:816)\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.getFileContentStream(GoogleSuiteCloudConnector.java:765)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 403,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "6977817e9cb32f1ea560751f",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 25,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : GOOGLE_SHARED_DRIVES cloudId : 691c8f483f005b7a04d14bd6 File Name : sample.mp3 status code : 400 Exception : {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Bad Request\",\n    \"errors\": [\n      {\n        \"message\": \"Bad Request\",\n        \"domain\": \"global\",\n        \"reason\": \"badRequest\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.helper.GoogleTeamDriveBusinessHelper.resumableSmallFileUpload(GoogleTeamDriveBusinessHelper.java:541)\n\tat com.cloudfuze.cloud.connectors.GoogleTeamDriveCloudConnector.createFileInCloud(GoogleTeamDriveCloudConnector.java:702)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 400,
+    "retry": 3,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69396d31585dcf4e3bd7fa98",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 26,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud G_SUITE cloudId 696f7ce2c37c821c24963b3d status code 403 Exception : {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n    \"errors\": [\n      {\n        \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n        \"domain\": \"global\",\n        \"reason\": \"fileNotDownloadable\",\n        \"location\": \"alt\",\n        \"locationType\": \"parameter\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.executeDownloadRequest(GoogleSuiteCloudConnector.java:816)\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.getFileContentStream(GoogleSuiteCloudConnector.java:765)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 403,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "6977817e9cb32f1ea560751f",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 27,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Omitting partial file stream for cloud G_SUITE cloudId 69257f8216243149b2eb74d2 File Id 1gZtCdiJ8GsY-1hsPf_CbBU1RaZNaxWTbM1270WpHcCU File Name NOTE1 \n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.createFileInCloud(GoogleSuiteCloudConnector.java:622)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693aa1dc585dcf4e3bd802c8",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 28,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : ONEDRIVE_BUSINESS_ADMIN cloudId : 698efa31dc199d1f425d5d3f File Name : Erik K-EmbeddedLinks.csv status code :  Exception : com.google.api.client.http.HttpResponseException: 409 Conflict\n{\"error\":{\"code\":\"nameAlreadyExists\",\"message\":\"A file with the same name is currently being uploaded. Change the filename and try to save again.\",\"innerError\":{\"date\":\"2026-02-17T13:28:02\",\"request-id\":\"43899514-b95d-404e-9380-445ec9e44a85\",\"client-request-id\":\"43899514-b95d-404e-9380-445ec9e44a85\"}}}\n\tat com.google.api.client.http.HttpRequest.execute(HttpRequest.java:1061)\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:112)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:475)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:136)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:475)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 409,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "699466b6dc199d1f425d69eb",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 29,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : GOOGLE_SHARED_DRIVES cloudId : 691c8f483f005b7a04d14bd6 File Name : 50mb.docx status code : 400 Exception : {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Bad Request\",\n    \"errors\": [\n      {\n        \"message\": \"Bad Request\",\n        \"domain\": \"global\",\n        \"reason\": \"badRequest\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.helper.GoogleTeamDriveBusinessHelper.resumableSmallFileUpload(GoogleTeamDriveBusinessHelper.java:541)\n\tat com.cloudfuze.cloud.connectors.GoogleTeamDriveCloudConnector.createFileInCloud(GoogleTeamDriveCloudConnector.java:702)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 400,
+    "retry": 3,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69396d31585dcf4e3bd7fa98",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 30,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : ONEDRIVE_BUSINESS_ADMIN cloudId : 6970cf3d34ef1d18f81d48d1 File Name : Embedded link.docx status code :  Exception : com.google.api.client.http.HttpResponseException: 409 Conflict\n{\"error\":{\"code\":\"nameAlreadyExists\",\"message\":\"A file with the same name is currently being uploaded. Change the filename and try to save again.\",\"innerError\":{\"date\":\"2026-01-29T14:13:17\",\"request-id\":\"8178d2db-7b5d-4b13-8ad2-125d45d6b244\",\"client-request-id\":\"8178d2db-7b5d-4b13-8ad2-125d45d6b244\"}}}\n\tat com.google.api.client.http.HttpRequest.execute(HttpRequest.java:1061)\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:112)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:475)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:136)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:475)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 409,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "697b68eaed448707239ab1ad",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 31,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : ONEDRIVE_BUSINESS_ADMIN cloudId : 6909d9f07e64a4582d6daaa3 File Name : Pap3.docx status code :  Exception : com.google.api.client.http.HttpResponseException: 409 Conflict\n{\"error\":{\"code\":\"nameAlreadyExists\",\"message\":\"A file with the same name is currently being uploaded. Change the filename and try to save again.\",\"innerError\":{\"date\":\"2025-12-09T16:24:06\",\"request-id\":\"fc1fd23a-f238-41b0-973b-76a4bb49e527\",\"client-request-id\":\"fc1fd23a-f238-41b0-973b-76a4bb49e527\"}}}\n\tat com.google.api.client.http.HttpRequest.execute(HttpRequest.java:1061)\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:112)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:136)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 409,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69384adf585dcf4e3bd7f50b",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 32,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : GOOGLE_SHARED_DRIVES cloudId : 691c8f483f005b7a04d14bd6 File Name : sample.mp4 status code : 500 Exception : {\n  \"error\": {\n    \"code\": 500,\n    \"message\": \"Internal Error\",\n    \"errors\": [\n      {\n        \"message\": \"Internal Error\",\n        \"domain\": \"global\",\n        \"reason\": \"internalError\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.helper.GoogleTeamDriveBusinessHelper.resumableSmallFileUpload(GoogleTeamDriveBusinessHelper.java:541)\n\tat com.cloudfuze.cloud.connectors.GoogleTeamDriveCloudConnector.createFileInCloud(GoogleTeamDriveCloudConnector.java:702)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 500,
+    "retry": 2,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69396d31585dcf4e3bd7fa98",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 33,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : ONEDRIVE_BUSINESS_ADMIN cloudId : 6965034d55908f10286b3561 File Name : file more data.xlsx status code :  Exception : com.google.api.client.http.HttpResponseException: 409 Conflict\n{\"error\":{\"code\":\"nameAlreadyExists\",\"message\":\"A file with the same name is currently being uploaded. Change the filename and try to save again.\",\"innerError\":{\"date\":\"2026-01-27T15:28:09\",\"request-id\":\"0bd2b468-67b3-47de-85c8-ef4dcb994a69\",\"client-request-id\":\"0bd2b468-67b3-47de-85c8-ef4dcb994a69\"}}}\n\tat com.google.api.client.http.HttpRequest.execute(HttpRequest.java:1061)\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:112)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:475)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:136)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:475)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 409,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "6978d3ac9cb32f1ea5607e1e",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 34,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : GOOGLE_SHARED_DRIVES cloudId : 691c8f483f005b7a04d14bd6 File Name : test_files_bundle.zip status code : 400 Exception : {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Bad Request\",\n    \"errors\": [\n      {\n        \"message\": \"Bad Request\",\n        \"domain\": \"global\",\n        \"reason\": \"badRequest\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.helper.GoogleTeamDriveBusinessHelper.resumableSmallFileUpload(GoogleTeamDriveBusinessHelper.java:541)\n\tat com.cloudfuze.cloud.connectors.GoogleTeamDriveCloudConnector.createFileInCloud(GoogleTeamDriveCloudConnector.java:702)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 400,
+    "retry": 3,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69396d31585dcf4e3bd7fa98",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 35,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud SHAREFILE_BUSINESS cloudId 696531c355908f10286b39b1 status code 403 Exception : {\"code\":\"Forbidden\",\"message\":{\"lang\":\"en-US\",\"value\":\"Authorization failed: Item.You are not authorized to perform this operation.\"},\"reason\":\"NotAuthorized\"}\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileDownloadResponse(ShareFileBusinessCloudConnector.java:3157)\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileContentStream(ShareFileBusinessCloudConnector.java:462)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69663e4755908f10286b3c6e",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 36,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Omitting partial file stream for cloud G_SUITE cloudId 69257f8216243149b2eb74d2 File Id 10dWSwwNYvMrCI42RHWmMNhbAVp3kA4eBlu-1PeCf3K4 File Name BOS3 \n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.createFileInCloud(GoogleSuiteCloudConnector.java:622)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693be822585dcf4e3bd80aa3",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 37,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud DROPBOX_BUSINESS cloudId 693844c8585dcf4e3bd7f017.paper status code 409 Exception : {\"error_summary\": \"path/not_found/\", \"error\": {\".tag\": \"path\", \"path\": {\".tag\": \"not_found\"}}}\n\tat com.cloudfuze.cloud.connectors.DropBoxBusinessCloudConnector.getFileContentStream(DropBoxBusinessCloudConnector.java:1975)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:239)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 409,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69384813585dcf4e3bd7f4db",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 38,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : GOOGLE_SHARED_DRIVES cloudId : 691c8f483f005b7a04d14bd6 File Name : Test_20mb (1).txt status code : 400 Exception : {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Bad Request\",\n    \"errors\": [\n      {\n        \"message\": \"Bad Request\",\n        \"domain\": \"global\",\n        \"reason\": \"badRequest\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.helper.GoogleTeamDriveBusinessHelper.resumableSmallFileUpload(GoogleTeamDriveBusinessHelper.java:541)\n\tat com.cloudfuze.cloud.connectors.GoogleTeamDriveCloudConnector.createFileInCloud(GoogleTeamDriveCloudConnector.java:702)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 400,
+    "retry": 3,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69396d31585dcf4e3bd7fa98",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 39,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Omitting partial file stream for cloud G_SUITE cloudId 69257f8216243149b2eb74d2 File Id 1EXJtZNtNrQIOZD5Z7-pi2R0rAZ2SVYLXvyEYhTW0Ak0 File Name note2 \n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.createFileInCloud(GoogleSuiteCloudConnector.java:622)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693aa1dc585dcf4e3bd802c8",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 40,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : G_SUITE cloudId : 69257f8216243149b2eb74d2 File Name : sample.mp4 status code : 500 Exception : {\n  \"error\": {\n    \"code\": 500,\n    \"message\": \"Internal Error\",\n    \"errors\": [\n      {\n        \"message\": \"Internal Error\",\n        \"domain\": \"global\",\n        \"reason\": \"internalError\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.helper.GsuitBusinessHelper.resumableSmallFileUpload(GsuitBusinessHelper.java:605)\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.createFileInCloud(GoogleSuiteCloudConnector.java:570)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 500,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693aa1dc585dcf4e3bd802c8",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 41,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Omitting partial file stream for cloud G_SUITE cloudId 69257f8216243149b2eb74d2 File Id 12h5CLetoLZp_ZwLT_fNeMcDok7MssMDU0wEsjj0hslQ File Name sample \n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.createFileInCloud(GoogleSuiteCloudConnector.java:622)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 2,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693bc7f3585dcf4e3bd8095c",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 42,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : ONEDRIVE_BUSINESS_ADMIN cloudId : 6965034d55908f10286b3561 File Name : Issues -4).xlsx status code :  Exception : com.google.api.client.http.HttpResponseException: 409 Conflict\n{\"error\":{\"code\":\"nameAlreadyExists\",\"message\":\"A file with the same name is currently being uploaded. Change the filename and try to save again.\",\"innerError\":{\"date\":\"2026-01-12T15:22:07\",\"request-id\":\"4de0bb65-be78-4510-b47f-8ea3bc003cdb\",\"client-request-id\":\"4de0bb65-be78-4510-b47f-8ea3bc003cdb\"}}}\n\tat com.google.api.client.http.HttpRequest.execute(HttpRequest.java:1061)\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:112)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:475)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:136)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:475)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 409,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69650be555908f10286b3998",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 43,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud G_SUITE cloudId 6952bc32eb3a770bdb3a33a2 status code 403 Exception : {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n    \"errors\": [\n      {\n        \"message\": \"Only files with binary content can be downloaded. Use Export with Docs Editors files.\",\n        \"domain\": \"global\",\n        \"reason\": \"fileNotDownloadable\",\n        \"location\": \"alt\",\n        \"locationType\": \"parameter\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.executeDownloadRequest(GoogleSuiteCloudConnector.java:816)\n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.getFileContentStream(GoogleSuiteCloudConnector.java:765)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 403,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "697673b49cb32f1ea56073cb",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 44,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud SHAREFILE_BUSINESS cloudId 696531c355908f10286b39b1 status code 403 Exception : {\"code\":\"Forbidden\",\"message\":{\"lang\":\"en-US\",\"value\":\"Authorization failed: Item.You are not authorized to perform this operation.\"},\"reason\":\"NotAuthorized\"}\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileDownloadResponse(ShareFileBusinessCloudConnector.java:3157)\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileContentStream(ShareFileBusinessCloudConnector.java:462)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69663e4755908f10286b3c6e",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 45,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : GOOGLE_SHARED_DRIVES cloudId : 691c8f483f005b7a04d14bd6 File Name : sample.json status code : 400 Exception : {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Bad Request\",\n    \"errors\": [\n      {\n        \"message\": \"Bad Request\",\n        \"domain\": \"global\",\n        \"reason\": \"badRequest\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.helper.GoogleTeamDriveBusinessHelper.resumableSmallFileUpload(GoogleTeamDriveBusinessHelper.java:541)\n\tat com.cloudfuze.cloud.connectors.GoogleTeamDriveCloudConnector.createFileInCloud(GoogleTeamDriveCloudConnector.java:702)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 400,
+    "retry": 3,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69396d31585dcf4e3bd7fa98",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 46,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : ONEDRIVE_BUSINESS_ADMIN cloudId : 6909d9f07e64a4582d6daaa3 File Name : Pap3.docx status code :  Exception : com.google.api.client.http.HttpResponseException: 409 Conflict\n{\"error\":{\"code\":\"nameAlreadyExists\",\"message\":\"A file with the same name is currently being uploaded. Change the filename and try to save again.\",\"innerError\":{\"date\":\"2025-12-09T16:24:05\",\"request-id\":\"a314baa4-55e6-4a4e-a744-7f3f9adea99f\",\"client-request-id\":\"a314baa4-55e6-4a4e-a744-7f3f9adea99f\"}}}\n\tat com.google.api.client.http.HttpRequest.execute(HttpRequest.java:1061)\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:112)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:136)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 409,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69384adf585dcf4e3bd7f50b",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 47,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud SHAREFILE_BUSINESS cloudId 696531c355908f10286b39b1 status code 403 Exception : {\"code\":\"Forbidden\",\"message\":{\"lang\":\"en-US\",\"value\":\"Authorization failed: Item.You are not authorized to perform this operation.\"},\"reason\":\"NotAuthorized\"}\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileDownloadResponse(ShareFileBusinessCloudConnector.java:3157)\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileContentStream(ShareFileBusinessCloudConnector.java:462)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69663e4755908f10286b3c6e",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 48,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud SHAREFILE_BUSINESS cloudId 696531c355908f10286b39b1 status code 403 Exception : {\"code\":\"Forbidden\",\"message\":{\"lang\":\"en-US\",\"value\":\"Authorization failed: Item.You are not authorized to perform this operation.\"},\"reason\":\"NotAuthorized\"}\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileDownloadResponse(ShareFileBusinessCloudConnector.java:3157)\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileContentStream(ShareFileBusinessCloudConnector.java:462)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69663e4755908f10286b3c6e",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 49,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud SHAREFILE_BUSINESS cloudId 696531c355908f10286b39b1 status code 403 Exception : {\"code\":\"Forbidden\",\"message\":{\"lang\":\"en-US\",\"value\":\"Authorization failed: Item.You are not authorized to perform this operation.\"},\"reason\":\"NotAuthorized\"}\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileDownloadResponse(ShareFileBusinessCloudConnector.java:3157)\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileContentStream(ShareFileBusinessCloudConnector.java:462)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69663e4755908f10286b3c6e",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 50,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : GOOGLE_SHARED_DRIVES cloudId : 691c8f483f005b7a04d14bd6 File Name : sample.mp4 status code : 500 Exception : {\n  \"error\": {\n    \"code\": 500,\n    \"message\": \"Internal Error\",\n    \"errors\": [\n      {\n        \"message\": \"Internal Error\",\n        \"domain\": \"global\",\n        \"reason\": \"internalError\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.helper.GoogleTeamDriveBusinessHelper.resumableSmallFileUpload(GoogleTeamDriveBusinessHelper.java:541)\n\tat com.cloudfuze.cloud.connectors.GoogleTeamDriveCloudConnector.createFileInCloud(GoogleTeamDriveCloudConnector.java:702)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 500,
+    "retry": 2,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69396d31585dcf4e3bd7fa98",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 51,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud SHAREFILE_BUSINESS cloudId 696531c355908f10286b39b1 status code 403 Exception : {\"code\":\"Forbidden\",\"message\":{\"lang\":\"en-US\",\"value\":\"Authorization failed: Item.You are not authorized to perform this operation.\"},\"reason\":\"NotAuthorized\"}\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileDownloadResponse(ShareFileBusinessCloudConnector.java:3157)\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileContentStream(ShareFileBusinessCloudConnector.java:462)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69663e4755908f10286b3c6e",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 52,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud SHAREFILE_BUSINESS cloudId 696531c355908f10286b39b1 status code 403 Exception : {\"code\":\"Forbidden\",\"message\":{\"lang\":\"en-US\",\"value\":\"Authorization failed: Item.You are not authorized to perform this operation.\"},\"reason\":\"NotAuthorized\"}\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileDownloadResponse(ShareFileBusinessCloudConnector.java:3157)\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileContentStream(ShareFileBusinessCloudConnector.java:462)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69663e4755908f10286b3c6e",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 53,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 5\n\tat com.cloudfuze.cloud.connectors.BoxBusinessCloudConnector.getBoxNotes(BoxBusinessCloudConnector.java:4480)\n\tat com.cloudfuze.cloud.connectors.BoxBusinessCloudConnector.getFileContentStream(BoxBusinessCloudConnector.java:839)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "698edcb2dc199d1f425d54c4",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 54,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud SHAREFILE_BUSINESS cloudId 696531c355908f10286b39b1 status code 403 Exception : {\"code\":\"Forbidden\",\"message\":{\"lang\":\"en-US\",\"value\":\"Authorization failed: Item.You are not authorized to perform this operation.\"},\"reason\":\"NotAuthorized\"}\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileDownloadResponse(ShareFileBusinessCloudConnector.java:3157)\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileContentStream(ShareFileBusinessCloudConnector.java:462)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69663e4755908f10286b3c6e",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 55,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud SHAREFILE_BUSINESS cloudId 696531c355908f10286b39b1 status code 403 Exception : {\"code\":\"Forbidden\",\"message\":{\"lang\":\"en-US\",\"value\":\"Authorization failed: Item.You are not authorized to perform this operation.\"},\"reason\":\"NotAuthorized\"}\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileDownloadResponse(ShareFileBusinessCloudConnector.java:3157)\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileContentStream(ShareFileBusinessCloudConnector.java:462)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69663e4755908f10286b3c6e",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 56,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Omitting partial file stream for cloud G_SUITE cloudId 69257f8216243149b2eb74d2 File Id 1KKOvY6lBFxX6batYicxIy1guwCZAWS2RSatbJwsjWMk File Name sample \n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.createFileInCloud(GoogleSuiteCloudConnector.java:622)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 2,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693bc7f3585dcf4e3bd8095c",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 57,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Omitting partial file stream for cloud G_SUITE cloudId 69257f8216243149b2eb74d2 File Id 15ospcj4pvI3b3E9DWoclc_29Yi8H6Szx79jXtqL6jZs File Name sample \n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.createFileInCloud(GoogleSuiteCloudConnector.java:622)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693be822585dcf4e3bd80aa3",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 58,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : ONEDRIVE_BUSINESS_ADMIN cloudId : 6965034d55908f10286b3561 File Name : Issues -4).xlsx status code :  Exception : com.google.api.client.http.HttpResponseException: 409 Conflict\n{\"error\":{\"code\":\"nameAlreadyExists\",\"message\":\"A file with the same name is currently being uploaded. Change the filename and try to save again.\",\"innerError\":{\"date\":\"2026-01-14T13:58:09\",\"request-id\":\"c86d3a18-9d6c-4cdf-a9bb-a15b1a48b7fb\",\"client-request-id\":\"c86d3a18-9d6c-4cdf-a9bb-a15b1a48b7fb\"}}}\n\tat com.google.api.client.http.HttpRequest.execute(HttpRequest.java:1061)\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:112)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:475)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:136)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:475)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 409,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69679abaa43ed978fca61b93",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 59,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Omitting partial file stream for cloud G_SUITE cloudId 69257f8216243149b2eb74d2 File Id 1EJEw3b_7NWgKYhcKOCUfcOibgrKjrynKyhwzFbda1PE File Name NOTE1T \n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.createFileInCloud(GoogleSuiteCloudConnector.java:622)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 2,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693bc7f3585dcf4e3bd8095c",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 60,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : GOOGLE_SHARED_DRIVES cloudId : 691c8f483f005b7a04d14bd6 File Name : sample.json status code : 400 Exception : {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Bad Request\",\n    \"errors\": [\n      {\n        \"message\": \"Bad Request\",\n        \"domain\": \"global\",\n        \"reason\": \"badRequest\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.helper.GoogleTeamDriveBusinessHelper.resumableSmallFileUpload(GoogleTeamDriveBusinessHelper.java:541)\n\tat com.cloudfuze.cloud.connectors.GoogleTeamDriveCloudConnector.createFileInCloud(GoogleTeamDriveCloudConnector.java:702)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 400,
+    "retry": 3,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69396d31585dcf4e3bd7fa98",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 61,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud SHAREFILE_BUSINESS cloudId 696531c355908f10286b39b1 status code 403 Exception : {\"code\":\"Forbidden\",\"message\":{\"lang\":\"en-US\",\"value\":\"Authorization failed: Item.You are not authorized to perform this operation.\"},\"reason\":\"NotAuthorized\"}\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileDownloadResponse(ShareFileBusinessCloudConnector.java:3157)\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileContentStream(ShareFileBusinessCloudConnector.java:462)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69663e4755908f10286b3c6e",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 62,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : GOOGLE_SHARED_DRIVES cloudId : 691c8f483f005b7a04d14bd6 File Name : sample.mp3 status code : 400 Exception : {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Bad Request\",\n    \"errors\": [\n      {\n        \"message\": \"Bad Request\",\n        \"domain\": \"global\",\n        \"reason\": \"badRequest\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.helper.GoogleTeamDriveBusinessHelper.resumableSmallFileUpload(GoogleTeamDriveBusinessHelper.java:541)\n\tat com.cloudfuze.cloud.connectors.GoogleTeamDriveCloudConnector.createFileInCloud(GoogleTeamDriveCloudConnector.java:702)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 400,
+    "retry": 3,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69396d31585dcf4e3bd7fa98",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 63,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Omitting partial file stream for cloud G_SUITE cloudId 69257f8216243149b2eb74d2 File Id 1xKRzm_uAfOUWiYEzjhTnPgDNlEBzMB1qIXCBGnJsV8E File Name Untitled Note 2025-12-12 15.27.53 \n\tat com.cloudfuze.cloud.connectors.GoogleSuiteCloudConnector.createFileInCloud(GoogleSuiteCloudConnector.java:622)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693be822585dcf4e3bd80aa3",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 64,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud DROPBOX_BUSINESS cloudId 693844c8585dcf4e3bd7f017.paper status code 409 Exception : {\"error_summary\": \"path/not_found/\", \"error\": {\".tag\": \"path\", \"path\": {\".tag\": \"not_found\"}}}\n\tat com.cloudfuze.cloud.connectors.DropBoxBusinessCloudConnector.getFileContentStream(DropBoxBusinessCloudConnector.java:1975)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:239)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 409,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69384502585dcf4e3bd7f14a",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 65,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud SHAREFILE_BUSINESS cloudId 696531c355908f10286b39b1 status code 403 Exception : {\"code\":\"Forbidden\",\"message\":{\"lang\":\"en-US\",\"value\":\"Authorization failed: Item.You are not authorized to perform this operation.\"},\"reason\":\"NotAuthorized\"}\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileDownloadResponse(ShareFileBusinessCloudConnector.java:3157)\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileContentStream(ShareFileBusinessCloudConnector.java:462)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69663e4755908f10286b3c6e",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 66,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Downloading in cloud SHAREFILE_BUSINESS cloudId 696531c355908f10286b39b1 status code 403 Exception : {\"code\":\"Forbidden\",\"message\":{\"lang\":\"en-US\",\"value\":\"Authorization failed: Item.You are not authorized to perform this operation.\"},\"reason\":\"NotAuthorized\"}\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileDownloadResponse(ShareFileBusinessCloudConnector.java:3157)\n\tat com.cloudfuze.cloud.connectors.ShareFileBusinessCloudConnector.getFileContentStream(ShareFileBusinessCloudConnector.java:462)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:245)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 0,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69663e4755908f10286b3c6e",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 67,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : GOOGLE_SHARED_DRIVES cloudId : 691c8f483f005b7a04d14bd6 File Name : sample.exe status code : 400 Exception : {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Bad Request\",\n    \"errors\": [\n      {\n        \"message\": \"Bad Request\",\n        \"domain\": \"global\",\n        \"reason\": \"badRequest\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.helper.GoogleTeamDriveBusinessHelper.resumableSmallFileUpload(GoogleTeamDriveBusinessHelper.java:541)\n\tat com.cloudfuze.cloud.connectors.GoogleTeamDriveCloudConnector.createFileInCloud(GoogleTeamDriveCloudConnector.java:702)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 400,
+    "retry": 3,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69396d31585dcf4e3bd7fa98",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 68,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : GOOGLE_SHARED_DRIVES cloudId : 691c8f483f005b7a04d14bd6 File Name : 100mb.doc status code : 413 Exception : {\n  \"error\": {\n    \"code\": 413,\n    \"message\": \"Request Too Large\",\n    \"errors\": [\n      {\n        \"message\": \"Request Too Large\",\n        \"domain\": \"global\",\n        \"reason\": \"uploadTooLarge\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.helper.GoogleTeamDriveBusinessHelper.resumableLargeFileUpload(GoogleTeamDriveBusinessHelper.java:301)\n\tat com.cloudfuze.cloud.connectors.GoogleTeamDriveCloudConnector.createFileInCloud(GoogleTeamDriveCloudConnector.java:704)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 413,
+    "retry": 2,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69396d31585dcf4e3bd7fa98",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 69,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : GOOGLE_SHARED_DRIVES cloudId : 691c8f483f005b7a04d14bd6 File Name : 200MB_1080P_THETESTDATA.COM_mp4 (1).mp4 status code : 500 Exception : {\n  \"error\": {\n    \"code\": 500,\n    \"message\": \"Internal Error\",\n    \"errors\": [\n      {\n        \"message\": \"Internal Error\",\n        \"domain\": \"global\",\n        \"reason\": \"internalError\"\n      }\n    ]\n  }\n}\n\n\tat com.cloudfuze.cloud.helper.GoogleTeamDriveBusinessHelper.resumableLargeFileUpload(GoogleTeamDriveBusinessHelper.java:301)\n\tat com.cloudfuze.cloud.connectors.GoogleTeamDriveCloudConnector.createFileInCloud(GoogleTeamDriveCloudConnector.java:704)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 500,
+    "retry": 2,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "69396d31585dcf4e3bd7fa98",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 70,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : ONEDRIVE_BUSINESS_ADMIN cloudId : 68d4e668ab082e557a15cd65 File Name : folder_and_file_tree_run_on_2025-09-16-02-04-11_Page_1.csv status code :  Exception : com.google.api.client.http.HttpResponseException: 409 Conflict\n{\"error\":{\"code\":\"nameAlreadyExists\",\"message\":\"A file with the same name is currently being uploaded. Change the filename and try to save again.\",\"innerError\":{\"date\":\"2025-12-11T13:48:02\",\"request-id\":\"930d0e64-0f25-436e-a83e-c28be92663a5\",\"client-request-id\":\"930d0e64-0f25-436e-a83e-c28be92663a5\"}}}\n\tat com.google.api.client.http.HttpRequest.execute(HttpRequest.java:1061)\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:112)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:136)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 409,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693ac97e585dcf4e3bd806bf",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 71,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : ONEDRIVE_BUSINESS_ADMIN cloudId : 68d4e668ab082e557a15cd65 File Name : folder_and_file_tree_run_on_2025-09-16-02-04-11_Page_1.csv status code :  Exception : com.google.api.client.http.HttpResponseException: 409 Conflict\n{\"error\":{\"code\":\"nameAlreadyExists\",\"message\":\"A file with the same name is currently being uploaded. Change the filename and try to save again.\",\"innerError\":{\"date\":\"2025-12-11T13:48:05\",\"request-id\":\"7f3fd761-59bf-4e0e-812d-974e3fcf9320\",\"client-request-id\":\"7f3fd761-59bf-4e0e-812d-974e3fcf9320\"}}}\n\tat com.google.api.client.http.HttpRequest.execute(HttpRequest.java:1061)\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:112)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:136)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:474)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 409,
+    "retry": 0,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "693ac97e585dcf4e3bd806bf",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 72,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : ONEDRIVE_BUSINESS_ADMIN cloudId : 6957a7c960e5ef044cafe056 File Name : folder_and_file_tree_run_on_2025-09-16-02-04-11_Page_1.csv status code :  Exception : com.google.api.client.http.HttpResponseException: 409 Conflict\n{\"error\":{\"code\":\"nameAlreadyExists\",\"message\":\"A file with the same name is currently being uploaded. Change the filename and try to save again.\",\"innerError\":{\"date\":\"2026-02-05T17:56:47\",\"request-id\":\"f094a11a-3fd0-45e6-b548-e9231e8afd8b\",\"client-request-id\":\"f094a11a-3fd0-45e6-b548-e9231e8afd8b\"}}}\n\tat com.google.api.client.http.HttpRequest.execute(HttpRequest.java:1061)\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:112)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:475)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:136)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:475)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 409,
+    "retry": 2,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "6984bdf3ed448707239ac738",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  },
+  {
+    "index": 73,
+    "errorDescription": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : ONEDRIVE_BUSINESS_ADMIN cloudId : 6957a7c960e5ef044cafe056 File Name : folder_and_file_tree_run_on_2025-09-16-02-04-11_Page_1.csv status code :  Exception : com.google.api.client.http.HttpResponseException: 409 Conflict\n{\"error\":{\"code\":\"nameAlreadyExists\",\"message\":\"A file with the same name is currently being uploaded. Change the filename and try to save again.\",\"innerError\":{\"date\":\"2026-02-05T17:56:50\",\"request-id\":\"60af629d-2075-4d3d-957c-d7bcc3ee970b\",\"client-request-id\":\"60af629d-2075-4d3d-957c-d7bcc3ee970b\"}}}\n\tat com.google.api.client.http.HttpRequest.execute(HttpRequest.java:1061)\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:112)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:475)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n\tat com.cloudfuze.cloud.helper.OneDriveBusinessHelper.uploadLargeFile(OneDriveBusinessHelper.java:136)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.uploadLargeFiles(OneDriveBusinessCloudConnector.java:3182)\n\tat com.cloudfuze.cloud.connectors.OneDriveBusinessCloudConnector.createFileInCloud(OneDriveBusinessCloudConnector.java:2319)\n\tat com.cloudfuze.cloud.rest.FileFolderMgmtService.createFileInDestination(FileFolderMgmtService.java:5652)\n\tat com.cloudfuze.cloud.connectors.management.MoveFileMetadaInfoTask.run(MoveFileMetadaInfoTask.java:475)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n",
+    "statusCode": 409,
+    "retry": 2,
+    "processStatus": "CONFLICT",
+    "moveWorkSpaceId": "6984bdf3ed448707239ac738",
+    "fileName": "N/A",
+    "itemType": "N/A"
+  }
+]

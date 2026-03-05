@@ -1,0 +1,66 @@
+{
+  "totalRecords": 73,
+  "uniqueTypes": 5,
+  "groups": [
+    {
+      "type": "Exception while Uploading",
+      "count": 17,
+      "percentage": "23.3",
+      "totalRetries": 38,
+      "statusCodes": [
+        404,
+        400,
+        500,
+        413
+      ],
+      "workspaceCount": 3,
+      "sample": "error"
+    },
+    {
+      "type": "Other Error",
+      "count": 17,
+      "percentage": "23.3",
+      "totalRetries": 6,
+      "statusCodes": [
+        409,
+        0
+      ],
+      "workspaceCount": 14,
+      "sample": "com.cloudfuze.cloud.exception.CloudConnectorException: Exception while Uploading  in cloud : ONEDRIV"
+    },
+    {
+      "type": "Omitting partial file stream",
+      "count": 15,
+      "percentage": "20.5",
+      "totalRetries": 12,
+      "statusCodes": [
+        0
+      ],
+      "workspaceCount": 3,
+      "sample": "Partial file stream omitted during transfer"
+    },
+    {
+      "type": "File Not Downloadable",
+      "count": 12,
+      "percentage": "16.4",
+      "totalRetries": 0,
+      "statusCodes": [
+        403
+      ],
+      "workspaceCount": 3,
+      "sample": "Google Docs/Sheets files require export, not download"
+    },
+    {
+      "type": "Authorization Failed",
+      "count": 12,
+      "percentage": "16.4",
+      "totalRetries": 0,
+      "statusCodes": [
+        0
+      ],
+      "workspaceCount": 1,
+      "sample": "Not authorized to perform this operation"
+    }
+  ],
+  "timestamp": "2026-03-05T12:10:59.694Z"
+}
