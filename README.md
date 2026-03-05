@@ -1,36 +1,138 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Content Report UI
+
+A Next.js 16 dashboard application for monitoring CloudFuze migration jobs, workspaces, and file statistics with real-time data from MongoDB.
+
+## Features
+
+- 📊 **Dashboard**: Real-time statistics and charts for jobs, workspaces, and files
+- 💼 **Jobs Management**: View and track migration jobs with detailed workspace information
+- 📁 **File Details**: Comprehensive file and folder information tracking
+- ⚠️ **Conflicts Breakdown**: Detailed conflict analysis and retry management
+- 🔄 **Real-time Data**: Direct MongoDB integration for live data updates
+
+## Tech Stack
+
+- **Framework**: Next.js 16 with React 19
+- **Language**: TypeScript
+- **Database**: MongoDB
+- **Charts**: Highcharts & Recharts
+- **Icons**: Lucide React
+- **Styling**: CSS Modules
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 20+
+- MongoDB connection string
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/SudityaSenaNimmala/reportsui.git
+cd reportsui
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Create a `.env.local` file in the root directory:
+```env
+MONGODB_URI=your_mongodb_connection_string_here
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Run the development server:
+```bash
+npm run dev
+```
 
-## Learn More
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment on Render
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Option 1: Using Render Dashboard (Recommended)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Create a new Web Service** on [Render](https://render.com)
 
-## Deploy on Vercel
+2. **Connect your GitHub repository**: `https://github.com/SudityaSenaNimmala/reportsui.git`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Configure the service**:
+   - **Name**: `content-report-ui` (or your preferred name)
+   - **Region**: Choose your preferred region
+   - **Branch**: `main`
+   - **Runtime**: `Node`
+   - **Build Command**: `npm install && npm run build`
+   - **Start Command**: `npm start`
+   - **Instance Type**: Free or paid tier
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Add Environment Variables**:
+   - Click "Environment" tab
+   - Add: `MONGODB_URI` = `your_mongodb_connection_string`
+
+5. **Deploy**: Click "Create Web Service"
+
+### Option 2: Using render.yaml (Auto-deploy)
+
+The repository includes a `render.yaml` file for automatic configuration. Just connect your repo and Render will auto-detect the settings.
+
+## Environment Variables
+
+| Variable | Description | Required |
+|----------|-------------|----------|
+| `MONGODB_URI` | MongoDB connection string | Yes |
+
+## Project Structure
+
+```
+content_report_ui/
+├── src/
+│   ├── app/
+│   │   ├── Dashboard/         # Main dashboard page
+│   │   ├── Jobs/              # Jobs management page
+│   │   ├── FileDetails/       # File details page
+│   │   └── api/               # API routes
+│   ├── components/            # Reusable components
+│   ├── hooks/                 # Custom React hooks
+│   ├── lib/                   # MongoDB configuration
+│   └── types/                 # TypeScript types
+├── scripts/                   # Database exploration scripts
+└── public/                    # Static assets
+```
+
+## API Endpoints
+
+- `/api/dashboard/stats` - Dashboard statistics
+- `/api/dashboard/charts` - Chart data
+- `/api/jobs` - Jobs list
+- `/api/jobs/[jobName]` - Specific job details
+- `/api/workspace/[workspaceId]/*` - Workspace endpoints
+
+## Database Collections
+
+- `MoveJobDetails` - Migration job information
+- `MoveWorkSpaces` - Workspace details
+- `FileFolderInfo` - File and folder data
+- `HyperLinks` - Hyperlink tracking
+- `CollabarationDetails` - Collaboration information
+- `PermissionQueue` - Permission management
+
+## Scripts
+
+Utility scripts for database exploration:
+
+```bash
+node scripts/explore-db.js           # Explore database structure
+node scripts/fetch-conflicts.js      # Fetch conflict records
+node scripts/extract-keywords.js     # Analyze conflict patterns
+```
+
+## License
+
+Private - CloudFuze Internal Tool
+
+## Support
+
+For issues or questions, contact the development team.
