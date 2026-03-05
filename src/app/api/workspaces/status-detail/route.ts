@@ -9,7 +9,7 @@ export async function GET(request: NextRequest) {
 
     const collection = await getWorkspacesCollection(dbName);
 
-    const matchStages = [{ $match: { _id: { $exists: true } } }];
+    const matchStages: any[] = [{ $match: { _id: { $exists: true } } }];
 
     if (processStatus && processStatus !== "ALL") {
       matchStages.push({
@@ -17,7 +17,7 @@ export async function GET(request: NextRequest) {
       });
     }
 
-    const pipeline = [
+    const pipeline: any[] = [
       ...matchStages,
       {
         $addFields: {
