@@ -13,7 +13,7 @@ export async function GET(request: NextRequest) {
 
     if (processStatus && processStatus !== "ALL") {
       matchStages.push({
-        $match: { processStatus: processStatus } as Record<string, unknown>,
+        $match: { processStatus: processStatus },
       });
     }
 
